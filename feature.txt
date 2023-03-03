@@ -1,0 +1,76 @@
+GIT CONCEPTS
+
+
+What is Version Control ?
+Version control, also known as source control, It is the practice of tracking and 
+managing changes to software code. These are software tools which are very helpful
+ to the software teams to manage changes to source code over time.
+
+
+What is Version Control System ?
+    Version Control system is a system that maintains different versions of your 
+    project  when we work in a team or as an individual. (system managing changes
+    to files) As the project progresses, new features get added to it. So, a  
+    version control system maintains all the different versions of your project for 
+    you and you can roll back to any version you want without causing any trouble 
+    to you for maintaining different versions by giving names to it like 
+    MyProject, MyProjectWithFeature1, etc.
+
+ 
+ What is Git ?   
+ Git is a DevOps tool used for source code management. It is a free and                  
+ open-source version control system used to handle small to very large projects
+ efficiently. And Allows us to Maintain the history of the project and Ensures at what 
+ Particular time which person has changed , and where in the project. 
+
+
+ What is the use of git ?   
+             Git is a tool that is used to manage multiple versions of source code edits 
+             that are then transferred to files in a Git repository.
+
+ What is Stash and Unstash area in git ?     
+             Git has an area called the stash where you can temporarily store a snapshot of 
+             your changes without committing them to the repository. It’s separate from  
+             the working directory, the staging area, or the repository.
+
+             This functionality is useful when you’ve made changes to a branch that you 
+             aren’t ready to commit, but you need to switch to another branch.and 
+             Unstash is the basically popping the files from the stash area is known as 
+             Unstashing..
+
+
+
+What is .gitignore file ?
+A .gitignore file is a plain text file that contains a list of all the specified files and folders from the project that Git should ignore and not track. Inside .gitignore , you can tell Git to ignore only a single file or a single folder by mentioning the name or pattern of that specific file or folder.
+
+
+What is nvm and npm ?
+NVM is a Node Version Manager tool. Using the NVM utility, you can install multiple node.js versions on a single system. You can also choose a specific Node version for applications. It also provides an option to auto-select the node version using the .nvmrc configuration file. NPM is a package manager, which help you install libraries, plugins, frameworks and applications.
+
+      
+ Concepts of branches in git ?   
+             In Git, a branch is a new / separate version of the main repository, Branches 
+             allow you to work on different parts of a project without impacting the main 
+             branch.When the work is complete, a branch can be merged with the 
+             main project.You can even switch between branches and work on different 
+             projects without them interfering with each other. Branching in Git is very
+             lightweight and fast.
+             Commits are basically Linked / connected with each other in the form of branch 
+             and Internally they are implemented by Directed Acyclic Graph.    
+
+Basic NVM Commands
+Install the latest version of Node js: nvm install node
+Install a Specific Version: nvm install version_name
+
+Git Branch Commands:
+git  branch  -> Displays a list of local branches.
+git  branch -a  -> Displays both local and remote branches.
+git checkout branch_name -> Switch to a branch.
+git checkout -b branch_name  -> Create a branch and Switch to it.
+
+Git Clone Commands:
+           git clone <repo URL> -> Clone a specific remote repository.
+
+
+
+
